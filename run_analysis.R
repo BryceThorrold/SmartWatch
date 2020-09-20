@@ -95,3 +95,6 @@ TestData$Pool <- rep(c("Test"), nrow(TestData))
 ## Add a column in Train Data that identifies it as Train DAta
 TrainData$Pool <- rep(c("Train"), nrow(TrainData))
 
+### Combine the tables
+Data <- rbind(TrainData, TestData)
+
