@@ -89,61 +89,18 @@ TestData$Activity <- MergedTestAct[,2]
 MergedTrainAct <- merge(TrainLabels, activitylabels, sort = FALSE)  
 TrainData$Activity <- MergedTrainAct[,2]
 
-## Add a column in Test Data that identifies it as Test DAta
-##TestData$Pool <- rep(c("Test"), nrow(TestData))
-
-## Add a column in Train Data that identifies it as Train DAta
-##TrainData$Pool <- rep(c("Train"), nrow(TrainData))
-
 ### Combine the tables
 Data <- rbind(TrainData, TestData)
-
 
 
 ####  From the data set in step 4, creates a second,
 #### independent tidy data set with the average of each variable for each activity and each subject.
 
-##### colMeans(playdata[,c(1:66)]
 
-## split.data.frame(DAta,Data$Subject,Data$Activity)
+GroupActivity <- Data %>%
+  group_by(Activity, Subject) %>%
+  summarize(MeanBodyAccMag = mean(BodyAccMag_mean),
+  STDBodyAccMag = mean(BodyAccMag_std))
 
-
-##playback <- Data %>% group_by(Subject,Activity) %>% summarize(
-##                        MeanBodyAccMag = mean(BodyAccMag_mean),
-##                        STDBodyAccMag = mean(BodyAccMag_std))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#######  I just couldnt get this to work so did something different above
-##SortedDataActivity <- Data[with(Data,order(Activity, Subject)),]
-##SortedDataSubject <- Data[with(Data,order(Subject, Activity)),]
-
-##GroupActivity <- SortedDataActivity %>%
-##  group_by(Activity, Subject) %>%
-##  summarize(MeanBodyAccMag = mean(BodyAccMag_mean),
-##  STDBodyAccMag = mean(BodyAccMag_std))
-
-##GroupSubject <- SortedDataSubject %>%
-##  group_by(Subject, Activity) %>%
-##  summarize(MeanBodyAccMag = mean(BodyAccMag_mean),
-##            STDBodyAccMag = mean(BodyAccMag_std))
-
-## playback <- Data %>% group_by(Subject,Activity) %>% summarize(playback,
-
+write.table(GroupActivity, file = "activities.txt", sep = "|")
 
