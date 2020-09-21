@@ -34,7 +34,7 @@ names(TestData) <- c(
   "BodyAccJerk-X-mean","BodyAccJerk-Y-mean", "BodyAccJerk-Z-mean", "BodyAccJerk-X-std","BodyAccJerk-Y-std", "BodyAccJerk-Z-std",
   "BodyGyro-X-mean","BodyGyro-Y-mean", "BodyGyro-Z-mean", "BodyGyro-X-std","BodyGyro-Y-std", "BodyGyro-Z-std",
   "BodyGyroJerk-X-mean","BodyGyroJerk-Y-mean", "BodyGyroJerk-Z-mean", "BodyGyroJerk-X-std","BodyGyroJerk-Y-std", "BodyGyroJerk-Z-std",
-  "BodyAccMag-mean", "BodyAccMag-std",
+  "BodyAccMag_mean", "BodyAccMag_std",
   "GravityAccMag-mean", "GarvityAccMag-std",
   "F_BodyAccJerk-mean", "F_BodyAccJerk-std",
   "F_BodyGyroMag-mean", "F_BodyGyroMag-std",
@@ -55,7 +55,7 @@ names(TrainData) <- c(
   "BodyAccJerk-X-mean","BodyAccJerk-Y-mean", "BodyAccJerk-Z-mean", "BodyAccJerk-X-std","BodyAccJerk-Y-std", "BodyAccJerk-Z-std",
   "BodyGyro-X-mean","BodyGyro-Y-mean", "BodyGyro-Z-mean", "BodyGyro-X-std","BodyGyro-Y-std", "BodyGyro-Z-std",
   "BodyGyroJerk-X-mean","BodyGyroJerk-Y-mean", "BodyGyroJerk-Z-mean", "BodyGyroJerk-X-std","BodyGyroJerk-Y-std", "BodyGyroJerk-Z-std",
-  "BodyAccMag-mean", "BodyAccMag-std",
+  "BodyAccMag_mean", "BodyAccMag_std",
   "GravityAccMag-mean", "GarvityAccMag-std",
   "F_BodyAccJerk-mean", "F_BodyAccJerk-std",
   "F_BodyGyroMag-mean", "F_BodyGyroMag-std",
@@ -90,11 +90,60 @@ MergedTrainAct <- merge(TrainLabels, activitylabels, sort = FALSE)
 TrainData$Activity <- MergedTrainAct[,2]
 
 ## Add a column in Test Data that identifies it as Test DAta
-TestData$Pool <- rep(c("Test"), nrow(TestData))
+##TestData$Pool <- rep(c("Test"), nrow(TestData))
 
 ## Add a column in Train Data that identifies it as Train DAta
-TrainData$Pool <- rep(c("Train"), nrow(TrainData))
+##TrainData$Pool <- rep(c("Train"), nrow(TrainData))
 
 ### Combine the tables
 Data <- rbind(TrainData, TestData)
+
+
+
+####  From the data set in step 4, creates a second,
+#### independent tidy data set with the average of each variable for each activity and each subject.
+
+##### colMeans(playdata[,c(1:66)]
+
+## split.data.frame(DAta,Data$Subject,Data$Activity)
+
+
+##playback <- Data %>% group_by(Subject,Activity) %>% summarize(
+##                        MeanBodyAccMag = mean(BodyAccMag_mean),
+##                        STDBodyAccMag = mean(BodyAccMag_std))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#######  I just couldnt get this to work so did something different above
+##SortedDataActivity <- Data[with(Data,order(Activity, Subject)),]
+##SortedDataSubject <- Data[with(Data,order(Subject, Activity)),]
+
+##GroupActivity <- SortedDataActivity %>%
+##  group_by(Activity, Subject) %>%
+##  summarize(MeanBodyAccMag = mean(BodyAccMag_mean),
+##  STDBodyAccMag = mean(BodyAccMag_std))
+
+##GroupSubject <- SortedDataSubject %>%
+##  group_by(Subject, Activity) %>%
+##  summarize(MeanBodyAccMag = mean(BodyAccMag_mean),
+##            STDBodyAccMag = mean(BodyAccMag_std))
+
+## playback <- Data %>% group_by(Subject,Activity) %>% summarize(playback,
+
 
