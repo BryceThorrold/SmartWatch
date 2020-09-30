@@ -1,221 +1,170 @@
-SmartWatchData
-[1] BodyAcc-X-mean
-[2] BodyAcc-Y-mean           
-[3] BodyAcc-Z-mean         
-[4] BodyAcc-X-std           
-[5] BodyAcc-Y-std
-[6] BodyAcc-Z-std
-[7] GravityAcc-X-mean
-[8] GravityAcc-Y-mean       
-[9] GravityAcc-Z-mean
-[10] GravityAcc-X-std
-[11] GravityAcc-Y-std
-[12] GravityAcc-Z-std
-[13] BodyAccJerk-X-mean
-[14] BodyAccJerk-Y-mean
-[15] BodyAccJerk-Z-mean
-[16] BodyAccJerk-X-std    
-[17] BodyAccJerk-Y-std
-[18] BodyAccJerk-Z-std
-[19] BodyGyro-X-mean
-[20] BodyGyro-Y-mean
-[21] BodyGyro-Z-mean
-[22] BodyGyro-X-std
-[23] BodyGyro-Y-std
-[24] BodyGyro-Z-std
-[25] BodyGyroJerk-X-mean
-[26] BodyGyroJerk-Y-mean
-[27] BodyGyroJerk-Z-mean
-[28] BodyGyroJerk-X-std
-[29] BodyGyroJerk-Y-std
-[30] BodyGyroJerk-Z-std
-[31] BodyAccMag-mean
-[32] BodyAccMag-std
-[33] GravityAccMag-mean
-[34] GarvityAccMag-std
-[35] F_BodyAccJerk-mean
-[36] F_BodyAccJerk-std
-[37] F_BodyGyroMag-mean
-[38] F_BodyGyroMag-std
-[39] F_BodyGyroJerkMag-mean
-[40] F_BodyGyroJerkMag-std
-[41] F_BodyAcc-X-mean
-[42] F_BodyAcc-Y-mean
-[43] F_BodyAcc-Z-mean
-[44] F_BodyAcc-X-std
-[45] F_BodyAcc-Y-std
-[46] F_BodyAcc-Z-std
-[47] F_BodyAccJerk-X-mean
-[48] F_BodyAccJerk-Y-mean
-[49] F_BodyAccJerk-Z-mean
-[50] F_BodyAccJerk-X-std
-[51] F_BodyAccJerk-Y-std
-[52] F_BodyAccJerk-Z-std
-[53] F_BodyGyro-X-mean
-[54] F_BodyGyro-Y-mean
-[55] F_BodyGyro-Z-mean
-[56] F_BodyGyro-X-std
-[57] F_BodyGyro-Y-std
-[58] F_BodyGyro-Z-std
-[59] F_BodyAccMag-mean
-[60] F_BodyAccMag-std        
-[61] BodyBodyAccJerkMag-mean
-[62] BodyBodyAccJerkMag-std
-[63] BodyBodyGyroMag-mean
-[64] BodyBodyGyroMag-std     
-[65] BodyBodyGyroJerkMag-mean 
-[66] BodyBodyGyroJerkMag-std
-[67] Subject
-[68] Activity
-[69] Pool
+Data Set 1: merge_set
+
+ [1] "TimeBodyAccelerometer.mean...X"                    
+ [2] "TimeBodyAccelerometer.mean...Y"                    
+ [3] "TimeBodyAccelerometer.mean...Z"                    
+ [4] "TimeGravityAccelerometer.mean...X"                 
+ [5] "TimeGravityAccelerometer.mean...Y"                 
+ [6] "TimeGravityAccelerometer.mean...Z"                 
+ [7] "TimeBodyAccelerometerJerk.mean...X"                
+ [8] "TimeBodyAccelerometerJerk.mean...Y"                
+ [9] "TimeBodyAccelerometerJerk.mean...Z"                
+[10] "TimeBodyGyroscope.mean...X"                        
+[11] "TimeBodyGyroscope.mean...Y"                        
+[12] "TimeBodyGyroscope.mean...Z"                        
+[13] "TimeBodyGyroscopeJerk.mean...X"                    
+[14] "TimeBodyGyroscopeJerk.mean...Y"                    
+[15] "TimeBodyGyroscopeJerk.mean...Z"                    
+[16] "TimeBodyAccelerometerMagnitude.mean.."             
+[17] "TimeGravityAccelerometerMagnitude.mean.."          
+[18] "TimeBodyAccelerometerJerkMagnitude.mean.."         
+[19] "TimeBodyGyroscopeMagnitude.mean.."                 
+[20] "TimeBodyGyroscopeJerkMagnitude.mean.."             
+[21] "FrequencyBodyAccelerometer.mean...X"               
+[22] "FrequencyBodyAccelerometer.mean...Y"               
+[23] "FrequencyBodyAccelerometer.mean...Z"               
+[24] "FrequencyBodyAccelerometer.meanFreq...X"           
+[25] "FrequencyBodyAccelerometer.meanFreq...Y"           
+[26] "FrequencyBodyAccelerometer.meanFreq...Z"           
+[27] "FrequencyBodyAccelerometerJerk.mean...X"           
+[28] "FrequencyBodyAccelerometerJerk.mean...Y"           
+[29] "FrequencyBodyAccelerometerJerk.mean...Z"           
+[30] "FrequencyBodyAccelerometerJerk.meanFreq...X"       
+[31] "FrequencyBodyAccelerometerJerk.meanFreq...Y"       
+[32] "FrequencyBodyAccelerometerJerk.meanFreq...Z"       
+[33] "FrequencyBodyGyroscope.mean...X"                   
+[34] "FrequencyBodyGyroscope.mean...Y"                   
+[35] "FrequencyBodyGyroscope.mean...Z"                   
+[36] "FrequencyBodyGyroscope.meanFreq...X"               
+[37] "FrequencyBodyGyroscope.meanFreq...Y"               
+[38] "FrequencyBodyGyroscope.meanFreq...Z"               
+[39] "FrequencyBodyAccelerometerMagnitude.mean.."        
+[40] "FrequencyBodyAccelerometerMagnitude.meanFreq.."    
+[41] "FrequencyBodyAccelerometerJerkMagnitude.mean.."    
+[42] "FrequencyBodyAccelerometerJerkMagnitude.meanFreq.."
+[43] "FrequencyBodyGyroscopeMagnitude.mean.."            
+[44] "FrequencyBodyGyroscopeMagnitude.meanFreq.."        
+[45] "FrequencyBodyGyroscopeJerkMagnitude.mean.."        
+[46] "FrequencyBodyGyroscopeJerkMagnitude.meanFreq.."    
+[47] "TimeBodyAccelerometer.std...X"                     
+[48] "TimeBodyAccelerometer.std...Y"                     
+[49] "TimeBodyAccelerometer.std...Z"                     
+[50] "TimeGravityAccelerometer.std...X"                  
+[51] "TimeGravityAccelerometer.std...Y"                  
+[52] "TimeGravityAccelerometer.std...Z"                  
+[53] "TimeBodyAccelerometerJerk.std...X"                 
+[54] "TimeBodyAccelerometerJerk.std...Y"                 
+[55] "TimeBodyAccelerometerJerk.std...Z"                 
+[56] "TimeBodyGyroscope.std...X"                         
+[57] "TimeBodyGyroscope.std...Y"                         
+[58] "TimeBodyGyroscope.std...Z"                         
+[59] "TimeBodyGyroscopeJerk.std...X"                     
+[60] "TimeBodyGyroscopeJerk.std...Y"                     
+[61] "TimeBodyGyroscopeJerk.std...Z"                     
+[62] "TimeBodyAccelerometerMagnitude.std.."              
+[63] "TimeGravityAccelerometerMagnitude.std.."           
+[64] "TimeBodyAccelerometerJerkMagnitude.std.."          
+[65] "TimeBodyGyroscopeMagnitude.std.."                  
+[66] "TimeBodyGyroscopeJerkMagnitude.std.."              
+[67] "FrequencyBodyAccelerometer.std...X"                
+[68] "FrequencyBodyAccelerometer.std...Y"                
+[69] "FrequencyBodyAccelerometer.std...Z"                
+[70] "FrequencyBodyAccelerometerJerk.std...X"            
+[71] "FrequencyBodyAccelerometerJerk.std...Y"            
+[72] "FrequencyBodyAccelerometerJerk.std...Z"            
+[73] "FrequencyBodyGyroscope.std...X"                    
+[74] "FrequencyBodyGyroscope.std...Y"                    
+[75] "FrequencyBodyGyroscope.std...Z"                    
+[76] "FrequencyBodyAccelerometerMagnitude.std.."         
+[77] "FrequencyBodyAccelerometerJerkMagnitude.std.."     
+[78] "FrequencyBodyGyroscopeMagnitude.std.."             
+[79] "FrequencyBodyGyroscopeJerkMagnitude.std.."         
+[80] "activity"                                          
+[81] "subj"
+
+Data Set 2: final_set
+
+Calculated fields: Fields [3] - [81] are the means of the same variables above - grouped together by [1] subject and [2] activity
 
 
-
-
-TestData
-[1] BodyAcc-X-mean
-[2] BodyAcc-Y-mean           
-[3] BodyAcc-Z-mean         
-[4] BodyAcc-X-std           
-[5] BodyAcc-Y-std
-[6] BodyAcc-Z-std
-[7] GravityAcc-X-mean
-[8] GravityAcc-Y-mean       
-[9] GravityAcc-Z-mean
-[10] GravityAcc-X-std
-[11] GravityAcc-Y-std
-[12] GravityAcc-Z-std
-[13] BodyAccJerk-X-mean
-[14] BodyAccJerk-Y-mean
-[15] BodyAccJerk-Z-mean
-[16] BodyAccJerk-X-std    
-[17] BodyAccJerk-Y-std
-[18] BodyAccJerk-Z-std
-[19] BodyGyro-X-mean
-[20] BodyGyro-Y-mean
-[21] BodyGyro-Z-mean
-[22] BodyGyro-X-std
-[23] BodyGyro-Y-std
-[24] BodyGyro-Z-std
-[25] BodyGyroJerk-X-mean
-[26] BodyGyroJerk-Y-mean
-[27] BodyGyroJerk-Z-mean
-[28] BodyGyroJerk-X-std
-[29] BodyGyroJerk-Y-std
-[30] BodyGyroJerk-Z-std
-[31] BodyAccMag-mean
-[32] BodyAccMag-std
-[33] GravityAccMag-mean
-[34] GarvityAccMag-std
-[35] F_BodyAccJerk-mean
-[36] F_BodyAccJerk-std
-[37] F_BodyGyroMag-mean
-[38] F_BodyGyroMag-std
-[39] F_BodyGyroJerkMag-mean
-[40] F_BodyGyroJerkMag-std
-[41] F_BodyAcc-X-mean
-[42] F_BodyAcc-Y-mean
-[43] F_BodyAcc-Z-mean
-[44] F_BodyAcc-X-std
-[45] F_BodyAcc-Y-std
-[46] F_BodyAcc-Z-std
-[47] F_BodyAccJerk-X-mean
-[48] F_BodyAccJerk-Y-mean
-[49] F_BodyAccJerk-Z-mean
-[50] F_BodyAccJerk-X-std
-[51] F_BodyAccJerk-Y-std
-[52] F_BodyAccJerk-Z-std
-[53] F_BodyGyro-X-mean
-[54] F_BodyGyro-Y-mean
-[55] F_BodyGyro-Z-mean
-[56] F_BodyGyro-X-std
-[57] F_BodyGyro-Y-std
-[58] F_BodyGyro-Z-std
-[59] F_BodyAccMag-mean
-[60] F_BodyAccMag-std        
-[61] BodyBodyAccJerkMag-mean
-[62] BodyBodyAccJerkMag-std
-[63] BodyBodyGyroMag-mean
-[64] BodyBodyGyroMag-std     
-[65] BodyBodyGyroJerkMag-mean 
-[66] BodyBodyGyroJerkMag-std
-[67] Subject
-[68] Activity
-
-TrainData
-[1] BodyAcc-X-mean
-[2] BodyAcc-Y-mean           
-[3] BodyAcc-Z-mean         
-[4] BodyAcc-X-std           
-[5] BodyAcc-Y-std
-[6] BodyAcc-Z-std
-[7] GravityAcc-X-mean
-[8] GravityAcc-Y-mean       
-[9] GravityAcc-Z-mean
-[10] GravityAcc-X-std
-[11] GravityAcc-Y-std
-[12] GravityAcc-Z-std
-[13] BodyAccJerk-X-mean
-[14] BodyAccJerk-Y-mean
-[15] BodyAccJerk-Z-mean
-[16] BodyAccJerk-X-std    
-[17] BodyAccJerk-Y-std
-[18] BodyAccJerk-Z-std
-[19] BodyGyro-X-mean
-[20] BodyGyro-Y-mean
-[21] BodyGyro-Z-mean
-[22] BodyGyro-X-std
-[23] BodyGyro-Y-std
-[24] BodyGyro-Z-std
-[25] BodyGyroJerk-X-mean
-[26] BodyGyroJerk-Y-mean
-[27] BodyGyroJerk-Z-mean
-[28] BodyGyroJerk-X-std
-[29] BodyGyroJerk-Y-std
-[30] BodyGyroJerk-Z-std
-[31] BodyAccMag-mean
-[32] BodyAccMag-std
-[33] GravityAccMag-mean
-[34] GarvityAccMag-std
-[35] F_BodyAccJerk-mean
-[36] F_BodyAccJerk-std
-[37] F_BodyGyroMag-mean
-[38] F_BodyGyroMag-std
-[39] F_BodyGyroJerkMag-mean
-[40] F_BodyGyroJerkMag-std
-[41] F_BodyAcc-X-mean
-[42] F_BodyAcc-Y-mean
-[43] F_BodyAcc-Z-mean
-[44] F_BodyAcc-X-std
-[45] F_BodyAcc-Y-std
-[46] F_BodyAcc-Z-std
-[47] F_BodyAccJerk-X-mean
-[48] F_BodyAccJerk-Y-mean
-[49] F_BodyAccJerk-Z-mean
-[50] F_BodyAccJerk-X-std
-[51] F_BodyAccJerk-Y-std
-[52] F_BodyAccJerk-Z-std
-[53] F_BodyGyro-X-mean
-[54] F_BodyGyro-Y-mean
-[55] F_BodyGyro-Z-mean
-[56] F_BodyGyro-X-std
-[57] F_BodyGyro-Y-std
-[58] F_BodyGyro-Z-std
-[59] F_BodyAccMag-mean
-[60] F_BodyAccMag-std        
-[61] BodyBodyAccJerkMag-mean
-[62] BodyBodyAccJerkMag-std
-[63] BodyBodyGyroMag-mean
-[64] BodyBodyGyroMag-std     
-[65] BodyBodyGyroJerkMag-mean 
-[66] BodyBodyGyroJerkMag-std
-[67] Subject
-[68] Activity
-
-?
-Readme
-
-
-
-
-
+ [1] "subj"                                              
+ [2] "activity"                                          
+ [3] "TimeBodyAccelerometer.mean...X"                    
+ [4] "TimeBodyAccelerometer.mean...Y"                    
+ [5] "TimeBodyAccelerometer.mean...Z"                    
+ [6] "TimeGravityAccelerometer.mean...X"                 
+ [7] "TimeGravityAccelerometer.mean...Y"                 
+ [8] "TimeGravityAccelerometer.mean...Z"                 
+ [9] "TimeBodyAccelerometerJerk.mean...X"                
+[10] "TimeBodyAccelerometerJerk.mean...Y"                
+[11] "TimeBodyAccelerometerJerk.mean...Z"                
+[12] "TimeBodyGyroscope.mean...X"                        
+[13] "TimeBodyGyroscope.mean...Y"                        
+[14] "TimeBodyGyroscope.mean...Z"                        
+[15] "TimeBodyGyroscopeJerk.mean...X"                    
+[16] "TimeBodyGyroscopeJerk.mean...Y"                    
+[17] "TimeBodyGyroscopeJerk.mean...Z"                    
+[18] "TimeBodyAccelerometerMagnitude.mean.."             
+[19] "TimeGravityAccelerometerMagnitude.mean.."          
+[20] "TimeBodyAccelerometerJerkMagnitude.mean.."         
+[21] "TimeBodyGyroscopeMagnitude.mean.."                 
+[22] "TimeBodyGyroscopeJerkMagnitude.mean.."             
+[23] "FrequencyBodyAccelerometer.mean...X"               
+[24] "FrequencyBodyAccelerometer.mean...Y"               
+[25] "FrequencyBodyAccelerometer.mean...Z"               
+[26] "FrequencyBodyAccelerometer.meanFreq...X"           
+[27] "FrequencyBodyAccelerometer.meanFreq...Y"           
+[28] "FrequencyBodyAccelerometer.meanFreq...Z"           
+[29] "FrequencyBodyAccelerometerJerk.mean...X"           
+[30] "FrequencyBodyAccelerometerJerk.mean...Y"           
+[31] "FrequencyBodyAccelerometerJerk.mean...Z"           
+[32] "FrequencyBodyAccelerometerJerk.meanFreq...X"       
+[33] "FrequencyBodyAccelerometerJerk.meanFreq...Y"       
+[34] "FrequencyBodyAccelerometerJerk.meanFreq...Z"       
+[35] "FrequencyBodyGyroscope.mean...X"                   
+[36] "FrequencyBodyGyroscope.mean...Y"                   
+[37] "FrequencyBodyGyroscope.mean...Z"                   
+[38] "FrequencyBodyGyroscope.meanFreq...X"               
+[39] "FrequencyBodyGyroscope.meanFreq...Y"               
+[40] "FrequencyBodyGyroscope.meanFreq...Z"               
+[41] "FrequencyBodyAccelerometerMagnitude.mean.."        
+[42] "FrequencyBodyAccelerometerMagnitude.meanFreq.."    
+[43] "FrequencyBodyAccelerometerJerkMagnitude.mean.."    
+[44] "FrequencyBodyAccelerometerJerkMagnitude.meanFreq.."
+[45] "FrequencyBodyGyroscopeMagnitude.mean.."            
+[46] "FrequencyBodyGyroscopeMagnitude.meanFreq.."        
+[47] "FrequencyBodyGyroscopeJerkMagnitude.mean.."        
+[48] "FrequencyBodyGyroscopeJerkMagnitude.meanFreq.."    
+[49] "TimeBodyAccelerometer.std...X"                     
+[50] "TimeBodyAccelerometer.std...Y"                     
+[51] "TimeBodyAccelerometer.std...Z"                     
+[52] "TimeGravityAccelerometer.std...X"                  
+[53] "TimeGravityAccelerometer.std...Y"                  
+[54] "TimeGravityAccelerometer.std...Z"                  
+[55] "TimeBodyAccelerometerJerk.std...X"                 
+[56] "TimeBodyAccelerometerJerk.std...Y"                 
+[57] "TimeBodyAccelerometerJerk.std...Z"                 
+[58] "TimeBodyGyroscope.std...X"                         
+[59] "TimeBodyGyroscope.std...Y"                         
+[60] "TimeBodyGyroscope.std...Z"                         
+[61] "TimeBodyGyroscopeJerk.std...X"                     
+[62] "TimeBodyGyroscopeJerk.std...Y"                     
+[63] "TimeBodyGyroscopeJerk.std...Z"                     
+[64] "TimeBodyAccelerometerMagnitude.std.."              
+[65] "TimeGravityAccelerometerMagnitude.std.."           
+[66] "TimeBodyAccelerometerJerkMagnitude.std.."          
+[67] "TimeBodyGyroscopeMagnitude.std.."                  
+[68] "TimeBodyGyroscopeJerkMagnitude.std.."              
+[69] "FrequencyBodyAccelerometer.std...X"                
+[70] "FrequencyBodyAccelerometer.std...Y"                
+[71] "FrequencyBodyAccelerometer.std...Z"                
+[72] "FrequencyBodyAccelerometerJerk.std...X"            
+[73] "FrequencyBodyAccelerometerJerk.std...Y"            
+[74] "FrequencyBodyAccelerometerJerk.std...Z"            
+[75] "FrequencyBodyGyroscope.std...X"                    
+[76] "FrequencyBodyGyroscope.std...Y"                    
+[77] "FrequencyBodyGyroscope.std...Z"                    
+[78] "FrequencyBodyAccelerometerMagnitude.std.."         
+[79] "FrequencyBodyAccelerometerJerkMagnitude.std.."     
+[80] "FrequencyBodyGyroscopeMagnitude.std.."             
+[81] "FrequencyBodyGyroscopeJerkMagnitude.std.." 
